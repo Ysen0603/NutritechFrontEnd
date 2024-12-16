@@ -51,6 +51,7 @@ yarn build
 yarn start
 ```	
 ## 📂 Structure du Projet
+```
 frontend/
 │
 ├── src/
@@ -62,8 +63,10 @@ frontend/
 ├── public/                   # Ressources statiques
 ├── next.config.js            # Configuration Next.js
 └── package.json              # Dépendances et scripts
+```
 ## 🔍 Détails des Composants Principaux
+```
 -Header.jsx: Navigation et en-tête de l'application
 -Series.jsx: Composant de listing des séries vidéo
 -favorites/page.jsx: Gestion et affichage des vidéos favorites
-
+```
