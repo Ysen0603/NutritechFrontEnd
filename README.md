@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎬 Vidéo Streaming Platform - Frontend
 
-## Getting Started
+## �요 Aperçu du Projet
 
-First, run the development server:
+Cette application frontend est construite avec Next.js, offrant une expérience utilisateur moderne et réactive pour la découverte et la gestion de contenu vidéo.
 
+## 🌟 Fonctionnalités Principales
+
+- 🖥️ Interface utilisateur responsive
+- ⭐ Système de favoris dynamique
+- 🔍 Exploration de séries vidéo
+- 📱 Design adaptatif multi-écrans
+
+## 🛠 Technologies Utilisées
+
+- **Framework**: Next.js 
+- **Bibliothèque**: React
+- **Styling**: Tailwind CSS
+- **Langage**: JavaScript
+- **Gestion d'État**: React Hooks
+- **Routing**: Next.js App Router
+
+## 🔧 Prérequis Techniques
+
+- Node.js (v18+)
+- npm ou yarn
+- Navigateur moderne 
+
+## 📦 Installation du Projet
+
+### Étape 1: Clonage du Dépôt
 ```bash
+git clone [repo-url]
+cd frontend
+# Utilisation de npm
+npm install
+
+# Ou yarn
+yarn install
+# npm
 npm run dev
-# or
+
+# yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# npm
+npm run build
+npm start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# yarn
+yarn build
+yarn start
+```	
+## 📂 Structure du Projet
+frontend/
+│
+├── src/
+│   ├── app/                  # Routes et pages principales
+│   │   ├── favorites/        # Page des favoris
+│   │   ├── components/       # Composants réutilisables
+│   │   └── page.jsx          # Page d'accueil
+│   
+├── public/                   # Ressources statiques
+├── next.config.js            # Configuration Next.js
+└── package.json              # Dépendances et scripts
+## 🔍 Détails des Composants Principaux
+-Header.jsx: Navigation et en-tête de l'application
+-Series.jsx: Composant de listing des séries vidéo
+-favorites/page.jsx: Gestion et affichage des vidéos favorites
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
